@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Design | CADD Centre</title>
+
+    <!-- Icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <!-- jQuery cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="jquery-3.7.1.min.js"></script>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style/mech.css" />
+
+    <!-- JavaScript Link  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fontawesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+
+    <!-- JS - start -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("lBMxgaxpYHD79GW4n");
+        })();
+    </script>
+    <!-- JS - end -->
+</head>
+
+<body>
+    <!-- Navbar -->
+    <section id="nav">
+        <div id="nav1">
+            <a href="index.html"><img id="image" src="img/cadd_centre_logo.jpg" alt=""></a>
+        </div>
+        <div>
+
+        </div>
+        <div id="nav2">
+            <ul id="ull">
+                <li><a href="index.html"><strong>HOME</strong></a></li>
+                <div id="crse">
+                    <li><strong>COURSES&nbsp;<i class="fa fa-angle-down" aria-hidden="true"></i></strong></li>
+                    <div id="dv1">
+                        <a href="mech.html">
+                            <li>Certifications in Mechanical Design</li>
+                        </a>
+                        <hr width="90%">
+                        <a href="civil.html">
+                            <li>Certifications in Architecture, Engineering & Construction (AEC)</li>
+                        </a>
+                    </div>
+                </div>
+                <li><a href="#d1"><strong>CONTACT US</strong></a></li>
+            </ul>
+        </div>
+        <i id="ic" class="fa fa-bars" aria-hidden="true" onclick="ic()"></i>
+    </section>
+
+    <!-- Section 1 -->
+    <section id="section1">
+        <div id="div_img">
+            <img id="mech-banner" src="img/p2.jpg" width="100%" height="350px" alt="" />
+        </div>
+        <div id="div_con">
+            <div>
+                <p class="b-heading">
+                    <strong>
+                        Certifications in Mechanical Design
+                    </strong><br>
+                    <span style="font-style: italic;">
+                        Turn your ideas into Product Design innovations and make them count...
+                    </span>
+            </div>
+        </div>
+    </section><br><br>
+
+    <!-- Content -->
+    <section class="content" id="content">
+        <div class="left-c">
+            <div class="container-box  cb-1" id="d1">
+                <h1>Master Certification in Product Design</h1><br>
+                <ul id="ul0">
+                    <li>
+                        <p>SolidWorks Certification</p>
+                        <span class="span0">Enroll in our SolidWorks Certification Course to master essential skills for
+                            3D modeling and design. Gain proficiency in SolidWorks tools and techniques through hands-on
+                            training, ensuring you're well-prepared for the certification exam and building solid
+                            foundation in CAD and CAM applications. Whether you're a beginner or seeking advanced
+                            skills, our comprehensive course covers key concepts. Boost your career prospects and join
+                            our course for a solid foundation in SolidWorks. Start your journey towards CADD center
+                            today to become a certified professional!</span>
+                    </li><br>
+                    <li>
+                        <p>AutoCAD Training & Certification</p>
+                        <span class="span0">Explore our comprehensive AutoCAD training and certification course,
+                            designed to empower you with essential skills for 2D and 3D drafting along with CAD and CAM
+                            methodologies. Learn from industry experts and gain hands-on experience in AutoCAD's
+                            powerful tools for design and documentation. Our interactive modules cover topics such as
+                            drawing creation, dimensioning, and layer management. With a focus on practical application,
+                            you'll develop proficiency in creating precise technical drawings. Upon completion, receive
+                            a globally recognized AutoCAD certification, validating your expertise.</span>
+                    </li><br>
+                    <li>
+                        <p>Catia Training & Certification</p>
+                        <span class="span0">Explore Catia through our comprehensive training and certification course!
+                            Master the intricacies of this powerful design software, honing your skills in 3D modeling
+                            and product design. Our expert-led program ensures hands-on experience, covering essential
+                            tools and techniques. Upon completion, showcase your proficiency with a recognized
+                            certification in CAD and CAM applications. Elevate your career prospects in engineering and
+                            design industries. Join us to unlock the full potential of Catia and become a certified
+                            expert. Enroll now for a transformative learning journey!</span>
+                    </li><br>
+                    <li>
+                        <p>Creo Training & Certification</p>
+                        <span class="span0">Introducing the Cero Training & Certification Course, a comprehensive
+                            program designed to enhance your skills and knowledge. This course covers key topics
+                            essential for success, providing in-depth insights and practical expertise. Our expert-led
+                            modules ensure a thorough understanding of Cero principles. Upon completion, you'll receive
+                            a prestigious certification, validating your proficiency in CAD/CAM applications. Elevate
+                            your career with Cero expertise – enroll now and unlock a world of opportunities!</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Form -->
+        <div class="form">
+            <form>
+                <p class="en"><strong>Enquire Now</strong></p>
+                <input class="form-in" id="name" type="text" placeholder="Name" required /><br />
+                <input class="form-in" id="number" type="tel" placeholder="Phone Number" required /><br />
+                <input class="form-in" id="email" type="email" placeholder="Email" required /><br />
+                <select class="form-in" name="" id="form-profile" required>
+                    <option value="Select Profile">Select Profile</option>
+                    <option value="Student (1st, 2nd, 3rd Year)">Student (1st, 2nd, 3rd Year)</option>
+                    <option value="Student (Final Year)">Student (Final Year)</option>
+                    <option value="Graduate / Job Seeker">Graduate / Job Seeker</option>
+                    <option value="Working Professional">Working Professional</option>
+                </select><br />
+                <select class="form-in" name="" id="form-certificate" required>
+                    <option value="Select Your Choice">Select Your Choice</option>
+                    <option value="SolidWorks Certification">SolidWorks Certification</option>
+                    <option value="AutoCAD Training & Certification">AutoCAD Training & Certification</option>
+                    <option value="Catia Training & Certification">Catia Training & Certification</option>
+                    <option value="Cero Training & Certification">Creo Training & Certification</option>
+                </select><br />
+                <!-- <input class="form-in" id="state" type="text" placeholder="Your State" class="inp1" required />&nbsp; -->
+                <input type="text" id="district" placeholder="Your District" class="inp1 form-in" required /><br />
+
+                <button type="submit" class="fs-btn" onclick="sendmail()">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="f00">
+        <div id="f01">
+            <div id="f02">
+                <h1>CADD Centre</h1><br>
+                <p>CADD Centre - Sholinganallur (OMR) | Best CAD Training Centre in Chennai <br><br>
+                <h4>Phone:</h4>+91 98408 42226 <br><br>
+                <h4>Email:</h4>tn.kanchipuram@caddcentre.com
+                </p>
+            </div>
+            <div id="f03">
+                <p>Join CADD Centre Sholinganallur today and embark on a journey towards becoming a proficient and
+                    certified professional in AutoCAD, SolidWorks, and Catia. Elevate your skills, boost your
+                    career,
+                    and be a part of the design revolution!</p><br>
+                <ul>
+                    <a href="index.html">
+                        <li><i class="fa fa-angle-right" aria-hidden="true"></i> Home</li>
+                    </a>
+                    <a href="mech.html">
+                        <li><i class="fa fa-angle-right" aria-hidden="true"></i> Certifications in Mechanical Design
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li><i class="fa fa-angle-right" aria-hidden="true"></i> Certifications in Architecture,
+                            Engineering & Construction (AEC)</li>
+                    </a>
+                    <a href="index.html">
+                        <li><i class="fa fa-angle-right" aria-hidden="true"></i> Contact Us</li>
+                    </a>
+                </ul>
+            </div>
+            <div id="f04">
+                <iframe style="height:100%;width:100%;border:0;" frameborder="0"
+                    src="https://www.google.com/maps/embed/v1/place?q=CADD+Centre+-+Sholinganallur+(OMR)+|+Best+CAD+Training+Centre+in+Chennai,+Sholinganallur,+Chennai,+Tamil+Nadu,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+            </div>
+        </div>
+        <div id="f05">
+            <br><br>
+            © Copyright CADD Centre. All Rights Reserved
+        </div>
+    </section>
+
+    <!-- M-List -->
+    <div id="mlist1">
+        <span id="x2">&times;</span><br><br>
+        <img src="image/cadd_centre_logo.svg" alt="">
+        <ul>
+            <a href="index.html">
+                <li>HOME</li>
+            </a>
+            <li id="crs">COURSES&nbsp;<i class="fa fa-angle-down" aria-hidden="true"></i></li>
+            <div id="d0001">
+                <li><a href="mech.html">Certification in Mechanical Design</a></li>
+                <hr width="80%">
+                <li><a href="civil.html">Cerification in AEC</a></li>
+            </div>
+            <a href="#d1">
+                <li>CONTACT US</li>
+            </a>
+        </ul>
+    </div>
+</body>
+<script>
+
+    // EmailJs-----------------------------------------
+    function sendmail() {
+        console.log("inner send mail");
+        var params = {
+            name: document.getElementById("name").value,
+            number: document.getElementById("number").value,
+            email: document.getElementById("email").value,
+            profile: document.getElementById("form-profile").value,
+            certificate: document.getElementById("form-certificate").value,
+            // state: document.getElementById("state").value,
+            district: document.getElementById("district").value
+        }
+        // emailjs.send("service_7q9h3kd", "template_8ku6hkp", params).then(function (res) {
+        emailjs.send("service_7q9h3kd", "template_ga7hlzd", params).then(function (res) {
+            alert("success! " + res.status);
+        })
+    }
+
+    // Navbar------------------------------------------
+    $(function () {
+        $("#crse").click(function () {
+            $("#dv1").slideToggle()
+        })
+    })
+
+    // Responsive Navbar--------------------------------
+    $(function () {
+        $("#ic").click(function () {
+            $("#mlist1").slideToggle()
+        })
+        $("#x2").click(function () {
+            $("#mlist1").slideToggle()
+        })
+    })
+
+    $(function () {
+        $("#crs").click(function () {
+            $("#d0001").slideToggle()
+        })
+    })
+
+</script>
+
+</html>
